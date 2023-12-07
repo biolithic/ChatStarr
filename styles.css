@@ -1,0 +1,1042 @@
+/* Copyright 2023-2024 biolithic. All rights reserved.
+.scbt-mobile  .scbt-desktop
+.scbt-odysee 
+.scbt-twitch 
+.scbt-rumble
+.scbt-youtube
+.scbt-kick
+.scbt-noice
+*/
+
+:root {
+  --odysee-red: #CA004B;
+  --kick-green: rgb(83, 252, 24);
+  --tiktok-red: rgb(254, 44, 85);
+  --twitch-purple: #9146ff;
+  --twitch-white: #f0f0ff;
+  --rumble-green: #85C742;
+  --youtube-red: #ff0000;
+  --youtube-black: #282828;
+}
+
+.scbt-desktop .lawngreen {
+    background: lawngreen;
+}
+
+.scbtToggleButton2 
+{
+    right: 0px;
+    position: absolute;
+    top: 0px;
+    height: 50px;
+    width: 50px;
+    font-size: xx-large;
+    color: silver;
+    line-height: 0.5rem;
+    z-index: 11111111;
+}
+
+.scbtToggleButton2 div 
+{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0px 6px 0.5rem;
+}
+
+.scbtToggleButton2:hover, 
+.scbtToggleButton2:focus, 
+.scbtToggleButton2:active,
+.scbtToggleButton2:target 
+{
+     background: darkgray;
+}
+
+
+.scbt-odysee .scbtToggleButton2, 
+.scbt-odysee .scbtOptionsMenuForm > div::-webkit-scrollbar-thumb, 
+
+.scbt-odysee .scbtSideMenu button:hover, 
+.scbt-odysee .scbtSideMenu button:focus, 
+.scbt-odysee .scbtSideMenu button:active,
+.scbt-odysee .scbtSideMenu button.focused, 
+
+.scbt-odysee .scbtChatMenu button:hover, 
+.scbt-odysee .scbtChatMenu button:focus, 
+.scbt-odysee .scbtChatMenu button:active,
+.scbt-odysee .scbtChatMenu button.focused,
+
+.scbt-odysee .scbtChatToggleMenu button:hover, 
+.scbt-odysee .scbtChatToggleMenu button:focus, 
+.scbt-odysee .scbtChatToggleMenu button:active,
+.scbt-odysee .scbtChatToggleMenu button.focused,
+
+.scbt-odysee .scbtOptionsSavedWrapper .round-button:hover, 
+.scbt-odysee .scbtOptionsSavedWrapper .round-button:focus, 
+.scbt-odysee .scbtOptionsSavedWrapper .round-button:active, 
+.scbt-odysee .scbtOptionsSavedWrapper .round-button.focused, 
+
+.scbt-odysee .az2:hover, 
+.scbt-odysee .az2:focus, 
+.scbt-odysee .az2:active,
+.scbt-odysee .az2.focused, 
+
+.scbt-odysee .az3:hover, 
+.scbt-odysee .az3:focus, 
+.scbt-odysee .az3:active,
+.scbt-odysee .az3.focused, 
+
+.scbt-odysee .az4:hover, 
+.scbt-odysee .az4:focus, 
+.scbt-odysee .az4:active,
+.scbt-odysee .az4.focused, 
+
+.scbt-odysee .az5:hover, 
+.scbt-odysee .az5:focus, 
+.scbt-odysee .az5:active,
+.scbt-odysee .az5.focused, 
+
+.scbt-odysee .az6:hover, 
+.scbt-odysee .az6:focus, 
+.scbt-odysee .az6:active,
+.scbt-odysee .az6.focused,
+
+.scbt-odysee .scbtClipsToggleMenu button:hover, 
+.scbt-odysee .scbtClipsToggleMenu button:focus, 
+.scbt-odysee .scbtClipsToggleMenu button:active,
+.scbt-odysee .scbtClipsToggleMenu button.focused
+{
+    background: var(--odysee-red);
+}
+
+
+.scbt-kick .scbtToggleButton2, 
+.scbt-kick .scbtOptionsMenuForm > div::-webkit-scrollbar-thumb, 
+
+.scbt-kick .scbtSideMenu button:hover, 
+.scbt-kick .scbtSideMenu button:focus, 
+.scbt-kick .scbtSideMenu button:active,
+.scbt-kick .scbtSideMenu button.focused, 
+
+.scbt-kick .scbtChatMenu button:hover, 
+.scbt-kick .scbtChatMenu button:focus, 
+.scbt-kick .scbtChatMenu button:active,
+.scbt-kick .scbtChatMenu button.focused,
+
+.scbt-kick .scbtChatToggleMenu button:hover, 
+.scbt-kick .scbtChatToggleMenu button:focus, 
+.scbt-kick .scbtChatToggleMenu button:active,
+.scbt-kick .scbtChatToggleMenu button.focused,
+
+.scbt-kick .scbtOptionsSavedWrapper .round-button:hover, 
+.scbt-kick .scbtOptionsSavedWrapper .round-button:focus, 
+.scbt-kick .scbtOptionsSavedWrapper .round-button:active, 
+.scbt-kick .scbtOptionsSavedWrapper .round-button.focused, 
+
+.scbt-kick .az2:hover, 
+.scbt-kick .az2:focus, 
+.scbt-kick .az2:active,
+.scbt-kick .az2.focused, 
+
+.scbt-kick .az3:hover, 
+.scbt-kick .az3:focus, 
+.scbt-kick .az3:active,
+.scbt-kick .az3.focused, 
+
+.scbt-kick .az4:hover, 
+.scbt-kick .az4:focus, 
+.scbt-kick .az4:active,
+.scbt-kick .az4.focused, 
+
+.scbt-kick .az5:hover, 
+.scbt-kick .az5:focus, 
+.scbt-kick .az5:active,
+.scbt-kick .az5.focused, 
+
+.scbt-kick .az6:hover, 
+.scbt-kick .az6:focus, 
+.scbt-kick .az6:active,
+.scbt-kick .az6.focused,
+
+.scbt-kick .scbtClipsToggleMenu button:hover, 
+.scbt-kick .scbtClipsToggleMenu button:focus, 
+.scbt-kick .scbtClipsToggleMenu button:active,
+.scbt-kick .scbtClipsToggleMenu button.focused
+{
+    background: var(--kick-green);
+}
+
+
+.scbt-tiktok .scbtToggleButton2, 
+.scbt-tiktok .scbtOptionsMenuForm > div::-webkit-scrollbar-thumb, 
+
+.scbt-tiktok .scbtSideMenu button:hover, 
+.scbt-tiktok .scbtSideMenu button:focus, 
+.scbt-tiktok .scbtSideMenu button:active,
+.scbt-tiktok .scbtSideMenu button.focused, 
+
+.scbt-tiktok .scbtChatMenu button:hover, 
+.scbt-tiktok .scbtChatMenu button:focus, 
+.scbt-tiktok .scbtChatMenu button:active,
+.scbt-tiktok .scbtChatMenu button.focused,
+
+.scbt-tiktok .scbtChatToggleMenu button:hover, 
+.scbt-tiktok .scbtChatToggleMenu button:focus, 
+.scbt-tiktok .scbtChatToggleMenu button:active,
+.scbt-tiktok .scbtChatToggleMenu button.focused,
+
+.scbt-tiktok .scbtOptionsSavedWrapper .round-button:hover, 
+.scbt-tiktok .scbtOptionsSavedWrapper .round-button:focus, 
+.scbt-tiktok .scbtOptionsSavedWrapper .round-button:active, 
+.scbt-tiktok .scbtOptionsSavedWrapper .round-button.focused, 
+
+.scbt-tiktok .az2:hover, 
+.scbt-tiktok .az2:focus, 
+.scbt-tiktok .az2:active,
+.scbt-tiktok .az2.focused, 
+
+.scbt-tiktok .az3:hover, 
+.scbt-tiktok .az3:focus, 
+.scbt-tiktok .az3:active,
+.scbt-tiktok .az3.focused, 
+
+.scbt-tiktok .az4:hover, 
+.scbt-tiktok .az4:focus, 
+.scbt-tiktok .az4:active,
+.scbt-tiktok .az4.focused, 
+
+.scbt-tiktok .az5:hover, 
+.scbt-tiktok .az5:focus, 
+.scbt-tiktok .az5:active,
+.scbt-tiktok .az5.focused, 
+
+.scbt-tiktok .az6:hover, 
+.scbt-tiktok .az6:focus, 
+.scbt-tiktok .az6:active,
+.scbt-tiktok .az6.focused,
+
+.scbt-tiktok .scbtClipsToggleMenu button:hover, 
+.scbt-tiktok .scbtClipsToggleMenu button:focus, 
+.scbt-tiktok .scbtClipsToggleMenu button:active,
+.scbt-tiktok .scbtClipsToggleMenu button.focused
+{
+    background: var(--tiktok-red);
+}
+
+
+.scbt-twitch .scbtToggleButton2, 
+.scbt-twitch .scbtOptionsMenuForm > div::-webkit-scrollbar-thumb, 
+
+.scbt-twitch .scbtSideMenu button:hover, 
+.scbt-twitch .scbtSideMenu button:focus, 
+.scbt-twitch .scbtSideMenu button:active,
+.scbt-twitch .scbtSideMenu button.focused, 
+
+.scbt-twitch .scbtChatMenu button:hover, 
+.scbt-twitch .scbtChatMenu button:focus, 
+.scbt-twitch .scbtChatMenu button:active,
+.scbt-twitch .scbtChatMenu button.focused,
+
+.scbt-twitch .scbtChatToggleMenu button:hover, 
+.scbt-twitch .scbtChatToggleMenu button:focus, 
+.scbt-twitch .scbtChatToggleMenu button:active,
+.scbt-twitch .scbtChatToggleMenu button.focused,
+
+.scbt-twitch .scbtOptionsSavedWrapper .round-button:hover, 
+.scbt-twitch .scbtOptionsSavedWrapper .round-button:focus, 
+.scbt-twitch .scbtOptionsSavedWrapper .round-button:active, 
+.scbt-twitch .scbtOptionsSavedWrapper .round-button.focused, 
+
+.scbt-twitch .az2:hover, 
+.scbt-twitch .az2:focus, 
+.scbt-twitch .az2:active,
+.scbt-twitch .az2.focused, 
+
+.scbt-twitch .az3:hover, 
+.scbt-twitch .az3:focus, 
+.scbt-twitch .az3:active,
+.scbt-twitch .az3.focused, 
+
+.scbt-twitch .az4:hover, 
+.scbt-twitch .az4:focus, 
+.scbt-twitch .az4:active,
+.scbt-twitch .az4.focused, 
+
+.scbt-twitch .az5:hover, 
+.scbt-twitch .az5:focus, 
+.scbt-twitch .az5:active,
+.scbt-twitch .az5.focused, 
+
+.scbt-twitch .az6:hover, 
+.scbt-twitch .az6:focus, 
+.scbt-twitch .az6:active,
+.scbt-twitch .az6.focused,
+
+.scbt-twitch .scbtClipsToggleMenu button:hover, 
+.scbt-twitch .scbtClipsToggleMenu button:focus, 
+.scbt-twitch .scbtClipsToggleMenu button:active,
+.scbt-twitch .scbtClipsToggleMenu button.focused
+{
+    background: var(--twitch-purple);
+}
+
+
+.scbt-rumble .scbtToggleButton2, 
+.scbt-rumble .scbtOptionsMenuForm > div::-webkit-scrollbar-thumb, 
+
+.scbt-rumble .scbtSideMenu button:hover, 
+.scbt-rumble .scbtSideMenu button:focus, 
+.scbt-rumble .scbtSideMenu button:active,
+.scbt-rumble .scbtSideMenu button.focused, 
+
+.scbt-rumble .scbtChatMenu button:hover, 
+.scbt-rumble .scbtChatMenu button:focus, 
+.scbt-rumble .scbtChatMenu button:active,
+.scbt-rumble .scbtChatMenu button.focused,
+
+.scbt-rumble .scbtChatToggleMenu button:hover, 
+.scbt-rumble .scbtChatToggleMenu button:focus, 
+.scbt-rumble .scbtChatToggleMenu button:active,
+.scbt-rumble .scbtChatToggleMenu button.focused,
+
+.scbt-rumble .scbtOptionsSavedWrapper .round-button:hover, 
+.scbt-rumble .scbtOptionsSavedWrapper .round-button:focus, 
+.scbt-rumble .scbtOptionsSavedWrapper .round-button:active, 
+.scbt-rumble .scbtOptionsSavedWrapper .round-button.focused, 
+
+.scbt-rumble .az2:hover, 
+.scbt-rumble .az2:focus, 
+.scbt-rumble .az2:active,
+.scbt-rumble .az2.focused, 
+
+.scbt-rumble .az3:hover, 
+.scbt-rumble .az3:focus, 
+.scbt-rumble .az3:active,
+.scbt-rumble .az3.focused, 
+
+.scbt-rumble .az4:hover, 
+.scbt-rumble .az4:focus, 
+.scbt-rumble .az4:active,
+.scbt-rumble .az4.focused, 
+
+.scbt-rumble .az5:hover, 
+.scbt-rumble .az5:focus, 
+.scbt-rumble .az5:active,
+.scbt-rumble .az5.focused, 
+
+.scbt-rumble .az6:hover, 
+.scbt-rumble .az6:focus, 
+.scbt-rumble .az6:active,
+.scbt-rumble .az6.focused,
+
+.scbt-rumble .scbtClipsToggleMenu button:hover, 
+.scbt-rumble .scbtClipsToggleMenu button:focus, 
+.scbt-rumble .scbtClipsToggleMenu button:active,
+.scbt-rumble .scbtClipsToggleMenu button.focused
+{
+    background: var(--rumble-green);
+}
+
+
+.scbt-youtube .scbtToggleButton2, 
+.scbt-youtube .scbtOptionsMenuForm > div::-webkit-scrollbar-thumb, 
+
+.scbt-youtube .scbtSideMenu button:hover, 
+.scbt-youtube .scbtSideMenu button:focus, 
+.scbt-youtube .scbtSideMenu button:active,
+.scbt-youtube .scbtSideMenu button.focused, 
+
+.scbt-youtube .scbtChatMenu button:hover, 
+.scbt-youtube .scbtChatMenu button:focus, 
+.scbt-youtube .scbtChatMenu button:active,
+.scbt-youtube .scbtChatMenu button.focused,
+
+.scbt-youtube .scbtChatToggleMenu button:hover, 
+.scbt-youtube .scbtChatToggleMenu button:focus, 
+.scbt-youtube .scbtChatToggleMenu button:active,
+.scbt-youtube .scbtChatToggleMenu button.focused,
+
+.scbt-youtube .scbtOptionsSavedWrapper .round-button:hover, 
+.scbt-youtube .scbtOptionsSavedWrapper .round-button:focus, 
+.scbt-youtube .scbtOptionsSavedWrapper .round-button:active, 
+.scbt-youtube .scbtOptionsSavedWrapper .round-button.focused, 
+
+.scbt-youtube .az2:hover, 
+.scbt-youtube .az2:focus, 
+.scbt-youtube .az2:active,
+.scbt-youtube .az2.focused, 
+
+.scbt-youtube .az3:hover, 
+.scbt-youtube .az3:focus, 
+.scbt-youtube .az3:active,
+.scbt-youtube .az3.focused, 
+
+.scbt-youtube .az4:hover, 
+.scbt-youtube .az4:focus, 
+.scbt-youtube .az4:active,
+.scbt-youtube .az4.focused, 
+
+.scbt-youtube .az5:hover, 
+.scbt-youtube .az5:focus, 
+.scbt-youtube .az5:active,
+.scbt-youtube .az5.focused, 
+
+.scbt-youtube .az6:hover, 
+.scbt-youtube .az6:focus, 
+.scbt-youtube .az6:active,
+.scbt-youtube .az6.focused,
+
+.scbt-youtube .scbtClipsToggleMenu button:hover, 
+.scbt-youtube .scbtClipsToggleMenu button:focus, 
+.scbt-youtube .scbtClipsToggleMenu button:active,
+.scbt-youtube .scbtClipsToggleMenu button.focused
+{
+    background: var(--youtube-red);
+}
+
+
+
+body.scbt-kick .scbt-options-wrapper, 
+body.scbt-kick .scbtOptionsMenu, 
+body.scbt-kick .scbtMentionMenu, 
+body.scbt-kick .scbtChatMenu, 
+body.scbt-kick .scbtChatTitle,
+body.scbt-kick .scbtChatWrapper,
+body.scbt-kick .scbtToggleButton,
+body.scbt-kick .scbtToggleButton2,
+body.scbt-kick .scbtSideMenu,
+body.scbt-kick .scbtChatToggleMenu,
+body.scbt-kick .scbt-mobile .scbt7,
+body.scbt-kick .scbt-mobile .scbt10,
+body.scbt-kick .scbt-mobile .scbt16,
+body.scbt-kick .scbt-mobile .scbt17, 
+body.scbt-kick .scbtClipsToggleMenu,
+body.scbt-kick .scbtClipsMenuWrapper,
+body.scbt-kick .scbtLoading,
+body.scbt-kick .scbtOptionsMenu .scbtfeature10Wrapper,
+
+.scbt-odysee .scbt-options-wrapper, 
+.scbt-odysee .scbtOptionsMenu, 
+.scbt-odysee .scbtMentionMenu, 
+.scbt-odysee .scbtChatMenu, 
+.scbt-odysee .scbtChatTitle,
+.scbt-odysee .scbtChatWrapper,
+.scbt-odysee .scbtToggleButton,
+.scbt-odysee .scbtToggleButton2,
+.scbt-odysee .scbtSideMenu,
+.scbt-odysee .scbtChatToggleMenu,
+.scbt-odysee .scbt-mobile .scbt7,
+.scbt-odysee .scbt-mobile .scbt10,
+.scbt-odysee .scbt-mobile .scbt16,
+.scbt-odysee .scbt-mobile .scbt17, 
+.scbt-odysee .scbtClipsToggleMenu,
+.scbt-odysee .scbtClipsMenuWrapper,
+.scbt-odysee .scbtLoading,
+.scbt-odysee .scbtfeature10Wrapper,
+
+.scbt-tiktok .scbt-options-wrapper, 
+.scbt-tiktok .scbtOptionsMenu, 
+.scbt-tiktok .scbtMentionMenu, 
+.scbt-tiktok .scbtChatMenu, 
+.scbt-tiktok .scbtChatTitle,
+.scbt-tiktok .scbtChatWrapper,
+.scbt-tiktok .scbtToggleButton,
+.scbt-tiktok .scbtToggleButton2,
+.scbt-tiktok .scbtSideMenu,
+.scbt-tiktok .scbtChatToggleMenu,
+.scbt-tiktok .scbt-mobile .scbt7,
+.scbt-tiktok .scbt-mobile .scbt10,
+.scbt-tiktok .scbt-mobile .scbt16,
+.scbt-tiktok .scbt-mobile .scbt17, 
+.scbt-tiktok .scbtClipsToggleMenu,
+.scbt-tiktok .scbtClipsMenuWrapper,
+.scbt-tiktok .scbtLoading,
+.scbt-tiktok .scbtfeature10Wrapper,
+
+.scbt-tiktok .scbthighlighted8Wrapper,
+.scbt-tiktok .scbthighlighted9Wrapper,
+.scbt-tiktok .scbtParentalWrapper,
+.scbt-tiktok .scbtfeature3Wrapper,
+.scbt-tiktok .scbtfeature5Wrapper,
+.scbt-tiktok .scbtfeature11Wrapper,
+.scbt-tiktok .scbtfeature12Wrapper,
+.scbt-tiktok .scbtfeature7Wrapper,
+.scbt-tiktok .scbtfeature8Wrapper,
+
+
+.scbt-twitch .scbt-options-wrapper, 
+.scbt-twitch .scbtOptionsMenu, 
+.scbt-twitch .scbtMentionMenu, 
+.scbt-twitch .scbtChatMenu, 
+.scbt-twitch .scbtChatTitle,
+.scbt-twitch .scbtChatWrapper,
+.scbt-twitch .scbtToggleButton,
+.scbt-twitch .scbtToggleButton2,
+.scbt-twitch .scbtSideMenu,
+.scbt-twitch .scbtChatToggleMenu,
+.scbt-twitch .scbt-mobile .scbt7,
+.scbt-twitch .scbt-mobile .scbt10,
+.scbt-twitch .scbt-mobile .scbt16,
+.scbt-twitch .scbt-mobile .scbt17, 
+.scbt-twitch .scbtClipsToggleMenu,
+.scbt-twitch .scbtClipsMenuWrapper,
+.scbt-twitch .scbtLoading,
+.scbt-twitch .scbtfeature10Wrapper,
+.Layout-sc-1xcs6mc-0.hsXgFK, .side-nav__scrollable_content,
+
+.scbt-rumble .scbt-options-wrapper, 
+.scbt-rumble .scbtOptionsMenu, 
+.scbt-rumble .scbtMentionMenu, 
+.scbt-rumble .scbtChatMenu, 
+.scbt-rumble .scbtChatTitle,
+.scbt-rumble .scbtChatWrapper,
+.scbt-rumble .scbtToggleButton,
+.scbt-rumble .scbtToggleButton2,
+.scbt-rumble .scbtSideMenu,
+.scbt-rumble .scbtChatToggleMenu,
+.scbt-rumble .scbt-mobile .scbt7,
+.scbt-rumble .scbt-mobile .scbt10,
+.scbt-rumble .scbt-mobile .scbt16,
+.scbt-rumble .scbt-mobile .scbt17, 
+.scbt-rumble .scbtClipsToggleMenu,
+.scbt-rumble .scbtClipsMenuWrapper,
+.scbt-rumble .scbtLoading,
+.scbt-rumble .scbtfeature10Wrapper,
+
+.scbt-youtube .scbt-options-wrapper, 
+.scbt-youtube .scbtOptionsMenu, 
+.scbt-youtube .scbtMentionMenu, 
+.scbt-youtube .scbtChatMenu, 
+.scbt-youtube .scbtChatTitle,
+.scbt-youtube .scbtChatWrapper,
+.scbt-youtube .scbtToggleButton,
+.scbt-youtube .scbtToggleButton2,
+.scbt-youtube .scbtSideMenu,
+.scbt-youtube .scbtChatToggleMenu,
+.scbt-youtube .scbt-mobile .scbt7,
+.scbt-youtube .scbt-mobile .scbt10,
+.scbt-youtube .scbt-mobile .scbt16,
+.scbt-youtube .scbt-mobile .scbt17, 
+.scbt-youtube .scbtClipsToggleMenu,
+.scbt-youtube .scbtClipsMenuWrapper,
+.scbt-youtube .scbtLoading,
+.scbt-youtube .scbtfeature10Wrapper,
+.scbt-youtube .scbtOptionsMenu .scbtParentalWrapper,
+
+.scbt-youtube .scbtfeature3Wrapper, 
+.scbt-youtube .scbtfeature5Wrapper,
+.scbt-youtube .scbtfeature7Wrapper,
+.scbt-youtube .scbtfeature8Wrapper,
+.scbt-youtube .scbtfeature12Wrapper,
+
+.scbt-twitch .scbtfeature3Wrapper, 
+.scbt-twitch .scbtfeature5Wrapper,
+.scbt-twitch .scbtfeature7Wrapper,
+.scbt-twitch .scbtfeature8Wrapper,
+.scbt-twitch .scbtfeature12Wrapper,
+
+.scbtChatContent,
+.scbtChatContent2,
+.scbtChatContent3,
+.scbtChatContent4,
+.scbtChatContent5,
+.scbtChatContent6
+{
+    display: none;
+}
+
+
+body.scbt-mobile .scbtToggleButton2, 
+body .scbt-options-wrapper.scbt-bl, 
+body .scbtSideMenu.scbt-bl,
+body .scbtChatToggleMenu.scbt-bl,
+body .scbtOptionsMenu.scbt-bl,
+body .scbtChatWrapper.scbt-bl,
+body .scbtChatTitle.scbt-bl,
+body .scbtClipsToggleMenu.scbt-bl,
+body .scbtClipsMenuWrapper.scbt-bl,
+body .scbtMentionMenu.scbt-bl,
+body.scbt-kick .scbtChatPreviousContent p, body.scbt-kick .scbtChatPreviousContent button,
+
+body .scbtChatPreviousContent,
+body .emoji-picker__wrapper-shown,
+body .scbt-odysee.scbt-mobile .scbtChatTitle,
+body .scbt-odysee .scbtOptionsMenuForm .scbtChatLog,
+body .scbtChatPreviousContent p, body .scbtChatPreviousContent button
+body .scbtChatTitle.scbt-bl,
+body .scbtChatContent.scbt-bl,
+body .scbtChatContent2.scbt-bl,
+body .scbtChatContent3.scbt-bl,
+body .scbtChatContent4.scbt-bl,
+body .scbtChatContent5.scbt-bl,
+body .scbtChatContent6.scbt-bl
+{
+     display: block;
+}
+
+body .scbtSideMenu button, body .scbtChatToggleMenu button 
+{
+    display: inline-block;
+}
+
+body .scbt-mobile .scbtToggleButton2.scbt-fl, 
+body .scbt-options-wrapper.scbt-fl, 
+body .scbtSideMenu.scbt-fl,
+body .scbtChatMenu.scbt-fl,
+body .scbtChatToggleMenu.scbt-fl,
+body .scbtOptionsMenu.scbt-fl,
+body .scbtChatWrapper.scbt-fl,
+body .scbtChatTitle.scbt-fl,
+body .scbtClipsToggleMenu.scbt-fl,
+body .fill-height-or-more,
+body .fill-height-or-more > div,
+
+body.scbt-kick .scbtChatMenu button,
+body.scbt-odysee .scbtChatMenu button, 
+body.scbt-tiktok .scbtChatMenu button, 
+body.scbt-twitch .scbtChatMenu button, 
+body.scbt-rumble .scbtChatMenu button, 
+body.scbt-youtube .scbtChatMenu button
+{
+     display: flex;
+}
+
+
+.scbt-chat-timestamp, 
+.scbt-chat-author, 
+.scbt-options-title, 
+.round-button, 
+.scbtChatPreviousContent span, 
+.scbtToggleButton2,
+.scbtSideMenu button, 
+.scbtChatToggleMenu span, 
+.scbtCloseButton,
+.scbtChatMenu button,
+.scbtOptionsMenu button,
+.scbt-kick .scbt-speed li,
+.scbtClipsToggleMenu button
+{
+    cursor: pointer;
+}
+
+.scbt-youtube .scbtOptionsMenu, .scbt-tiktok .scbtOptionsMenu {
+    z-index: 10000000;
+    position: absolute;
+    background: #bbbbbb;
+    font-size: 1.4rem;
+    max-width: 66%;
+}
+
+.scbt-youtube .scbtOptionsMenu small, .scbt-tiktok .scbtOptionsMenu small {
+    font-size: .8rem;
+}
+
+.scbt-twitch .scbtOptionsMenu small {
+    font-size: .7rem;
+}
+
+.scbt-youtube .scbtOptionsMenu .scbt-options-title, .scbt-youtube .scbtOptionsMenu .scbtfeature4Wrapper,
+.scbt-twitch .scbtOptionsMenu .scbt-options-title, .scbt-twitch .scbtOptionsMenu .scbtfeature4Wrapper,
+.scbt-tiktok .scbtOptionsMenu .scbt-options-title, .scbt-tiktok .scbtOptionsMenu .scbtfeature4Wrapper,
+.scbt-kick .scbtOptionsMenu .scbt-options-title, .scbt-kick .scbtOptionsMenu .scbtfeature4Wrapper {
+    overflow: hidden;
+}
+
+.scbt-kick .scbtOptionsMenu .checkbox {
+    display: block;
+    clear: both;
+    height: max-content;
+    padding-top: 1rem;
+}
+
+.scbt-kick .scbtOptionsMenu .checkbox label {
+    display: inline;
+    float: left;
+    width: max-content;
+}
+
+.scbt-youtube .scbtOptionsMenu .scbtfeature4Wrapper {
+    display: inline;
+    float: left;
+}
+
+.scbt-youtube .scbtOptionsMenu .scbt-options-wrapper, .scbt-tiktok .scbtOptionsMenu .scbt-options-wrapper {
+    background: darkgray;
+}
+
+.scbt-kick .scbtOptionsMenu .scbt-options-wrapper p {
+    display: block;
+    clear: both;
+    padding: .5rem;
+    width: 95vw;
+    position: relative;
+}
+
+
+.scbt-kick .scbt-options-wrapper .form-check-input {
+    float: left;
+    display: inline-block;
+    position: relative;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+}
+
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+#scbtSnackbar {
+     visibility: hidden;
+     min-width: 250px;
+     background-color: #333;
+     text-align: center;
+     border-radius: 2px;
+     padding: 16px;
+     position: fixed;
+     z-index: 1111111;
+     color: #ccc;
+     right: 0px;
+     bottom: 5px;
+     font-size: medium;
+}
+
+ #scbtSnackbar.show {
+     visibility: visible;
+     -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+     animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+.scbtOptionsMenuForm {
+    clear: both;
+}
+
+.scbtOptionsMenuForm input {
+     font-size: 2rem;
+}
+
+.scbtOptionsMenuForm input[type="text"] {
+
+}
+
+.scbtSideMenu, .scbtChatToggleMenu, .scbtClipsToggleMenu {
+    position: fixed;
+    top: 305px;
+    z-index: 10000000;
+    background: black;
+    right: 0px;
+}
+
+.scbtChatToggleMenu {
+    top: 355px;
+}
+
+.scbtSideMenu button, .scbtChatToggleMenu button {
+    width: 40px;
+    height: 45px;
+    font-size: 1.75rem;
+}
+
+.scbtChatWrapper.scbt-bl {
+    position: absolute;
+    background: #222;
+    height: 300px;
+    z-index: 10000;
+    overflow-y: scroll;
+    top: 400px;
+    resize: vertical;
+}
+
+.scbtCloseButton {
+     position: absolute;
+     right: 40px;
+     z-index: 10000000;
+}
+
+.scbtCloseButton:hover {
+     opacity: 1;
+}
+ 
+.scbtCloseButton:before, .scbtCloseButton:after {
+     position: absolute;
+     left: 15px;
+     content: ' ';
+     height: 33px;
+     width: 2px;
+     background-color: #ddd;
+}
+
+.scbtCloseButton:before {
+    transform: rotate(45deg);
+}
+
+.scbtCloseButton:after {
+    transform: rotate(-45deg);
+}
+
+.scbtChatTitle {
+    position: absolute;
+    color: red;
+    z-index: 1000000;
+    background: #222;
+    left: 0px;
+    top: 380px;     
+}
+
+.scbtChatMenu {
+     position: absolute;
+     top: 350px;
+     right: 0px;
+     z-index: 100000;
+     min-width: fit-content;
+     width: 100%;
+     background: lightgrey;
+     height: 50px;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.scbtChatSearchInputText {
+     width: 30%;
+     height: 50px;
+     background: lightgray;
+     color: #000;
+}
+ 
+.scbtChatMenu button {
+     justify-content: space-between;
+     height: 50px;
+     background: black;
+     color: white;
+     min-width: 60px;
+     padding-left: 0.5rem;
+}
+
+body.scbt-tiktok .scbtChatMenu {
+  min-width: 100px;
+  max-width: 400px;
+  right: unset;
+}
+
+body.scbt-tiktok .scbtChatTitle {
+  right: 0px;
+  font-size: .7rem;
+}
+
+body.scbt-tiktok .scbtChatMenu button {
+  min-width: 45px;
+}
+
+.scbtChatMenu button.scbt-multiple {
+     background: green;
+}
+
+.scbt-deactivated {
+     opacity: .4;
+}
+
+.scbtLoading {
+    background: #666;
+    position: absolute;
+    margin: 0 auto;
+    height: 60px;
+    width: 60px;
+    z-index: 10000;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.scbt-desktop .scbtSideMenu {
+     top: 0px;
+}
+
+.scbt-desktop .scbtChatToggleMenu, .scbt-desktop .scbtClipsToggleMenu {
+     top: 45px;
+}
+
+.scbt-desktop .scbtSideMenu button, .scbt-desktop .scbtChatToggleMenu button {
+     font-size: 1.25rem;
+     width: fit-content;
+}
+
+.scbt-desktop.scbt-twitch .scbtSideMenu button, .scbt-desktop.scbt-twitch .scbtChatToggleMenu button {
+    font-size: 2rem;
+}
+
+.scbt-desktop.scbt-youtube .scbtSideMenu button, .scbt-desktop.scbt-youtube .scbtChatToggleMenu button {
+    height: 40px;
+    font-size: 2rem;
+}
+
+.scbt-desktop .scbtChatMenu {
+     top: 0px;
+     right: 235px;
+     width: fit-content; 
+}
+
+.scbt-desktop .scbtChatWrapper {
+     top: 100px;
+     max-width: 400px;
+     right: 5px;
+     left: initial;
+     height: 85vh;
+}
+
+.scbt-desktop .scbtChatTitle {
+     left: unset;
+     right: 80px;
+     top: 70px;
+}
+
+.scbt-desktop.scbt-youtube .scbtChatTitle {
+    top: 100px;
+    font-size: 1rem;
+}
+
+.scbt-desktop.scbt-twitch .scbtChatTitle {
+    top: 85px;
+}
+
+
+.scbtOptionsMenuForm > div {
+    max-height: 100px;
+    overflow: scroll;    
+}
+
+.scbtOptionsMenuForm > div::-webkit-scrollbar {
+  width: 20px;
+}
+
+.scbtOptionsMenuForm > div::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+.scbtOptionsMenuForm > div::-webkit-scrollbar-thumb {
+  background: lawngreen;
+  border-radius: 10px;
+}
+
+.scbtOptionsMenuForm > div::-webkit-scrollbar-thumb:hover {
+  background: darkgreen; 
+}
+
+.scbt-desktop.scbt-kick .scbtSideMenu, .scbt-desktop.scbt-kick .scbtChatToggleMenu {
+    height: 37px;
+    overflow-y: hidden;
+}
+
+.scbt-desktop.scbt-kick .scbtChatToggleMenu {
+    top: 37px;
+}
+
+.scbtOptionsMenuForm input[type=number], .scbtOptionsMenuForm input[type=text] {
+    color: #000;
+}
+
+.scbt-kick .scbtCopyTimeStampButton {
+    background-color: rgb(63 68 72 / var(--tw-bg-opacity));
+    border-radius: 4px;
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+
+.scbt-kick .scbtClipsMenuWrapper {
+    height: 400px;
+    width: 300px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    position: absolute;
+    z-index: 1000000;
+    top: 5px;
+    left: 5px;
+    background-color: #111;
+}
+
+.scbt-kick .scbtOptionsMenu button, .scbtClipsToggleMenu {
+    --tw-border-opacity: 1;
+    border-color: rgb(83 252 24 / var(--tw-border-opacity));
+    border-radius: 0.5rem;
+    border-width: 2px;
+    padding: 0.5rem;
+    float: left;
+}
+
+.scbt-kick .vjs-menu-button-popup .scbt-speed {
+    position: initial;
+}
+
+.scbt-kick .scbtChatPreviousContent p, .scbt-kick .scbtChatPreviousContent button {
+    clear: both;
+}
+
+.fill-height-or-more {
+  min-height: 100%;
+  flex-direction: column;
+}
+.fill-height-or-more > div {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  max-height: 150px;
+  overflow-y: scroll;
+}
+.some-area > div {
+  border-bottom: 1px solid black;
+}
+.some-area > div:nth-child(even) {
+  
+}
+.some-area > div:nth-child(odd) {
+  
+}
+.some-area > div p {
+  margin: 0;
+}
+.fill-height-or-more {
+    width: 0px;
+}
+.fill-height-or-more.has-content {
+    width: fit-content;
+}
+
+.scbt-mobile.scbt-kick .scbtSideMenu {
+    top: 0px;
+}
+
+.scbt-mobile.scbt-kick .scbtChatToggleMenu {
+    top: 43px;
+}
+
+.scbt-kick.scbt-mobile .scbtSideMenu {
+  right: auto;
+}
+
+.scbt-kick.scbt-mobile .scbtClipsToggleMenu {
+  position: absolute;
+  top: 60px;  
+}
+
+.scbt-kick.scbt-mobile .scbtSideMenu button {
+  width: 36px !important;  
+}
+
+.scbt-kick.scbt-mobile .scbtClipsToggleMenu button {
+  font-size: .5rem;
+}
+
+.scbt-kick.scbt-mobile .scbtClipsMenuWrapper {
+  top: 250px;
+  background: black;
+  width: 100%;
+}
